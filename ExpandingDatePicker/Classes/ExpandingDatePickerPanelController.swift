@@ -52,6 +52,7 @@ class ExpandingDatePickerPanelController: NSViewController, CALayerDelegate {
         datePickerGraphical.timeZone = sourceDatePicker.timeZone
         datePickerGraphical.minDate = sourceDatePicker.minDate
         datePickerGraphical.maxDate = sourceDatePicker.maxDate
+        datePickerGraphical.focusRingType = .none
 
         datePickerTextual.bind(.value,
                             to: sourceDatePicker,

@@ -2,10 +2,4 @@ use_frameworks!
 
 target 'ExpandingDatePicker_Example' do
   pod 'ExpandingDatePicker', :path => '../'
-
-  target 'ExpandingDatePicker_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
